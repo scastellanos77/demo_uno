@@ -22,7 +22,9 @@
   "release": {
     "branches": [
       "master",
-      "next"
+      "develop",
+      "hotfix",
+      "main"
     ]
   }
 }
