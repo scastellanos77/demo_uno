@@ -1,0 +1,28 @@
+{
+  "name": "demo-uno",
+  "version": "0.0.0-development",
+  "description": "Demostracion Uno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "author": "SIMON C",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scastellanos77/demo_uno.git"
+  },
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ]
+  }
+}
